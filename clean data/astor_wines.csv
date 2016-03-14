@@ -1,0 +1,95 @@
+PRODUCER,DISTILLER,NAME,AGE,PRICE
+A.D. Rattray,Glen Grant,20 Year Old 1992,20,$139.96
+A.D. Rattray,Laphroaig,14 Year Old 1998,14,$174.96
+A.D. Rattray,Linkwood,21 Year Old 1992,21,$164.96
+A.D. Rattray,Longmorn,21 Year Old 1992,21,$154.96
+Aberfeldy,Aberfeldy,12 Year Old,12,$42.99
+anCnoc,anCnoc,12 Year Old,12,$41.99
+Ardmore,Ardmore,Traditional Cask,,$49.96
+Arran,Arran,10 Year Old,10,$51.99
+Arran,Arran,Machrie Moor,,$74.99
+Auchentoshan,Auchentoshan,12 Year Old,12,$46.99
+Auchentoshan,Auchentoshan,American Oak,,$34.96
+Blackadder,Auchroisk,23 Year Old 1991,23,$249.96
+Bowmore,Bowmore,12 Year Old,12,$49.99
+Bowmore,Bowmore,23 Year Old Port Cask 1989,23,$499.96
+Bowmore,Bowmore,Dorus Mor II Small Batch,,$104.99
+Bruichladdich,Bruichladdich,Octomore 6.3 Islay Barley,,$199.99
+Bruichladdich,Bruichladdich,Octomore 7.3,,$189.99
+Bunnahabhain,Bunnahabhain,Toiteach,,$79.96
+Cadenhead's,Aberfeldy,17 Year Old,17,$124.96
+Cragganmore,Cragganmore,12 Year Old,12,$57.99
+Cragganmore,Cragganmore,Distiller's Edition 2001,12,$79.96
+Craigellachie,Craigellachie,13 Year Old,13,$49.99
+Criagellachie,Criagellachie,23 Year Old,23,$499.99
+Dalwhinnie,Dalwhinnie,15 Year Old,15,$59.99
+Dalwhinnie,Dalwhinnie,Distillers Edition,,$69.96
+Dun Bheagan,,8 Year Old Highland,8,$34.96
+Dun Bheagan,,8 Year Old Island,8,$34.96
+Dun Bheagan,,8 Year Old Lowland,8,$34.96
+Dun Bheagan,,8 Year Old Speyside,8,$34.96
+Dun Bheagan,BenRiach,16 Year Old BenRiach,16,$119.96
+Dun Bheagan,Caol Ila,22 Year Old Caol Ila,22,$249.96
+Dun Bheagan,Inchgower,31 Year Old Inchgower,31,$449.96
+Dun Bheagan,Blair Athol,22 Year Old Blair Athol 1991,22,$219.96
+Duncan Taylor,Dufftown,22 Year Old 1990,22,$219.99
+Duncan Taylor,Glenrothes,21 Year Old Single Cask,21,$274.96
+Glen Garioch,Glen Garioch,Virgin Oak Whisky,,$87.96
+Glen Garioch,Glen Garioch,12 Year Old,12,$64.99
+Glenfarclas,Glenfarclas,105 Cask Strength,,$99.99
+Glenfarclas,Glenfarclas,25 Year Old,25,$189.99
+Glenfarclas,Glenfarclas,Astor Family Cask Whisky 1989,25,$249.96
+Glenfiddich,Glenfiddich,26 Year Old Excellence Whisky,26,$549.99
+Glenfiddich,Glenfiddich,40 Year Old,40,$3999.99
+Glenglassaugh,Glenglassaugh,37 Year Old,37,$574.96
+Glenmorangie,Glenmorangie,25 Year Old,25,$599.99
+Glenmorangie,Glenmorangie,Nectar D'or,,$64.99
+Glenmorangie,Glenmorangie,Signet,,$199.96
+Glenrothes,Glenrothes,2001,,$64.99
+Hazelburn,Hazelburn,Rudlets & Kilkerrins,,$124.99
+Highland Park,Highland Park,25 Year Old,25,$649.99
+Highland Park,Highland Park,30 Year Old,30,$999.99
+Highland Park,Highland Park,Freya,,$299.99
+Highland Park,Highland Park,Odin 16 Year Old,16,$399.96
+Isle of Jura,Isle of Jura,Brooklyn,,$69.96
+Kilchoman,Kilchoman,,,$99.99
+Kilchoman,Kilchoman,Astor Bourbon Cask Matured 2008,,$114.96
+Kilkerran,Kilkerran,WIP Sherry Wood,,$69.99
+Lagavulin,Lagavulin,37 Year,37,$3399.99
+Laphroaig,Laphroaig,10 Year Old Cask Strength,10,$69.99
+Laphroaig,Laphroaig,18 Year Old,18,$114.96
+Laphroaig,Laphroaig,Quarter Cask,,$61.99
+Laphroaig,Laphroaig,Select,,$62.99
+Laphroaig,Laphroaig,Triple Wood,,$76.99
+Longrow,Longrow,Red 11 Year Old,11,$99.99
+Macallan,Macallan,25 Year Old,25,$1499.96
+Macallan,Macallan,Fine Oak 17 Year Old,17,$249.99
+Macallan,Macallan,Fine Oak 21 Year Old,21,$449.99
+Macallan,Macallan,Rare Cask,,$345.99
+Oban,Oban,Distiller's Edition 1999,,$81.96
+Oban,Oban,Little Bay,,$67.96
+Old Pulteney,Old Pulteney,12 Year Old,12,$41.99
+Old Pulteney,Old Pulteney,17 Year Old,17,$149.96
+Old Pulteney,Old Pulteney,21 Year Old,21,$199.96
+Port Ellen,Port Ellen,35 year 1978,35,$3649.99
+Rosebank,Rosebank,21 Year Old Whisky 1992,21,$574.96
+Speyburn,Speyburn,25 Year Old,25,$319.99
+Springbank,Springbank,10 Year Old,10,$61.99
+Springbank,Springbank,18 Year Old,18,$174.99
+Springbank,Springbank,21 Year Old,21,$419.99
+Springbank,Springbank,25 Year Old,25,$849.99
+Springbank,Springbank,Green 12 Year Old,12,$124.96
+Talisker,Talisker,10 Year Old,10,$64.99
+Talisker,Talisker,Distiller's Edition,,$79.99
+Balvenie,Balvenie,15 Year Old Sherry Single Barrel,15,$119.99
+BenRiach,BenRiach,18 Year Old Single Cask Whisky 1995,,$199.96
+Glendronach,Glendronach,11 Year Old PX Single Cask 2003,11,$129.96
+Glendronach,Glendronach,19 Year Old Single Cask 1995,19,$249.96
+Tomatin,Tomatin,12 Year Old,12,$34.96
+Tomintoul,Tomintoul,16 Year Old,16,$54.99
+Tomintoul,Tomintoul,Peaty Tang,,$39.99
+Tullibardine,Tullibardine,Sovereign,,$49.99
+Whiskies of Scotland,Bunnahabhain,24 Year Old 1989,24,$149.96
+Whiskies of Scotland,Clynelish,18 Year Old 1995,18,$134.96
+Whiskies of Scotland,Macallan,Single Cask,,$154.96
+Whiskies of Scotland,Mortlach,1995,,$149.96
