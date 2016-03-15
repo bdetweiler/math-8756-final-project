@@ -1,10 +1,10 @@
-PRODUCER,DISTILLER,NAME,AGE,PRICE,
-Aberfeldy,Aberfeldy,12 Year Old,12,$39.99,
-Aberfeldy,Aberfeldy,21 Year Old,21,$169.99,
-Aberlour,Aberlour,12 Year Old,12,$49.99,
-Aberlour,Aberlour,16 Year Old,16,$79.99,
+PRODUCER,DISTILLER,NAME,AGE,PRICE
+Aberfeldy,Aberfeldy,12 Year Old,12,$39.99
+Aberfeldy,Aberfeldy,21 Year Old,21,$169.99
+Aberlour,Aberlour,12 Year Old,12,$49.99
+Aberlour,Aberlour,16 Year Old,16,$79.99
 Aberlour,Aberlour,A'Bunadh,,$79.99
-Aberlour,Aberlour,18 Year Old,18,$89.99,
+Aberlour,Aberlour,18 Year Old,18,$89.99
 AD Rattray,Auchroisk,23 Year Old Cask #100963,23,$119.99
 AD Rattray,Auchroisk,24 Year Old 1991,24,$159.99
 AD Rattray,Balblair,16 Year Old Cask Strength 1990,16,$99.99
