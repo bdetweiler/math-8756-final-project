@@ -3,7 +3,7 @@ Aberfeldy,Aberfeldy,12 Year Old,12,$39.99,
 Aberfeldy,Aberfeldy,21 Year Old,21,$169.99,
 Aberlour,Aberlour,12 Year Old,12,$49.99,
 Aberlour,Aberlour,16 Year Old,16,$79.99,
-Aberlour,Aberlour,A'Bunadh,$79.99
+Aberlour,Aberlour,A'Bunadh,,$79.99
 Aberlour,Aberlour,18 Year Old,18,$89.99,
 AD Rattray,Auchroisk,23 Year Old Cask #100963,23,$119.99
 AD Rattray,Auchroisk,24 Year Old 1991,24,$159.99
@@ -14,7 +14,7 @@ AD Rattray,Bowmore,17 Year Old Cask #900017 1997,17,$119.99
 AD Rattray,Burnside,25 Year Old Cask #12446 1989,25,$179.99
 AD Rattray,Dailuane,17 Year Old 1998,17,$139.99
 AD Rattray,Glen Grant,20 Year Old Cask Strength 1991,20,$124.99
-AD Rattray,Glentauchers 7 Year Old from FF Sherry Butt 2005,$59.99
+AD Rattray,Glentauchers,7 Year Old from FF Sherry Butt 2005,7,$59.99
 AD Rattray,Linkwood,18 Year Old 1997,18,$129.99
 AD Rattray,Mortlach,22 Year Old Cask #5017 1997,22,$109.99
 AD Rattray,Peatside,6 Year Old Cask #5520 Chicago Cask 2009,6,$99.99
@@ -59,11 +59,11 @@ Auchentoshan,Auchentoshan,12 Year Old,12,$49.99
 Auchentoshan,Auchentoshan,18 Year Old,18,$129.99
 Auchentoshan,Auchentoshan,American Oak,,$39.99
 Auchentoshan,Auchentoshan,Three Wood,,$64.99
-Auchroisk,20 Year Old Cask Strength Limited Release 2010,20,$179.99
-Auchroisk,30 Year Old Limited release,30,$379.99
+Auchroisk,Auchroisk,20 Year Old Cask Strength Limited Release 2010,20,$179.99
+Auchriosk,Auchroisk,30 Year Old Limited release,30,$379.99
 Aultmore,Aultmore,Aged 12 Years,12,$59.99
 Aultmore,Aultmore,Aged 18 Years,18,$109.99
-Balblair,18 Year Old Vintage Malt 1991,18,$99.99
+Balblair,Balblair,18 Year Old Vintage Malt 1991,18,$99.99
 Balblair,Balblair,1983 Vintage 1st Release,,$319.99
 Balblair,Balblair,1990 Vintage 2nd Release,,$139.99
 Balblair,Balblair,1999 Vintage,,$79.99
@@ -71,7 +71,7 @@ Balblair,Balblair,2002,,$59.99
 Balblair,Balblair,2003 Vintage,,$59.99
 Blackadder,Balblair,21 Year Old 1990,21,$149.99
 Balblair,Balblair,37 Year Old Vintage Release 1975,37,$349.99
-Balblair,Balblair,Vintage Release 1969,,$1,999
+Balblair,Balblair,Vintage Release 1969,,$1999
 Edradour,Edradour,Ballechin 10 Year Old Heavily Peated Single Malt Whisky,10,$69.99
 Edradour,Edradour,Ballechin 3rd Edition Port Casks,,$79.99
 Edradour,Edradour,Ballechin 6th Edition Bourbon Casks,,$99.99
@@ -85,7 +85,6 @@ Balvenie,Balvenie,21 Year Old Portwood Finished Scotch,21,$229.99
 Balvenie,Balvenie,25 Year Old Single Barrel,25,$599.99
 Balvenie,Balvenie,30 Year Old,30,$799.99
 Balvenie,Balvenie,40 Year Old,40,$4499
-Balvenie,50 Year Old Release 2015,50,
 Balvenie,Balvenie,50 Year Old,50,$43999
 Balvenie,Balvenie,Tun 1509 Batch 1,,$359.99
 Balvenie,Balvenie,Tun 1509 Batch 2,,$359.99
@@ -97,8 +96,8 @@ BenRiach,BenRiach,12 Year Old Sherry Cask Aged,12,$59.99
 BenRiach,BenRiach,15 Year Old Pedro Ximenez Cask #7165 1995,15,$99.99
 BenRiach,BenRiach,16 Year Old,16,$79.99
 BenRiach,BenRiach,16 Year Old Sauternes Cask Finish,16,$99.99
-BenRiach,BenRiach,Authenticus,25 Year Old Heavily Peated,25,$259.99
-BenRiach,BenRiach,Heart of Speyside Single Malt,$39.99
+BenRiach,BenRiach,Authenticus 25 Year Old Heavily Peated,25,$259.99
+BenRiach,BenRiach,Heart of Speyside Single Malt,,$39.99
 BenRiach,BenRiach,Horizons 12 Year Old,12,$79.99 
 BenRiach,BenRiach,Peated 19 Year Old Cask #1722 1994,19,$149.99
 BenRiach,BenRiach,Peated 19 Year Old Oloroso Sherry Cask #7352 1994,19,$149.99
@@ -118,7 +117,7 @@ Benromach,Benromach,Imperial Strength 10 Year Old,10,$99.99
 Benromach,Benromach,Organic,,$69.99
 Benromach,Benromach,Peat Smoke,,$64.99
 Benromach,Benromach,Traditional,,$34.99
-Benromach,Benromach,Vintage 1976,,$1,099
+Benromach,Benromach,Vintage 1976,,$1099
 Blackadder,Blairfindy,16 Year Old 1997,16,$134.99
 Blackadder,Bowmore,13 Year Old Raw Cask 2001,13,$139.99
 Blackadder,Brackla,13 Year Old Raw Cask 2000,13,$109.99
@@ -140,8 +139,8 @@ Bowmore,Bowmore,50 Year Old Release 1961,50,$21999
 Bowmore,Dorus Mor,10 Year Old Cask Strength 1st Release,10,$99.99
 Bowmore,Bowmore,Small Batch,,$39.99
 Bowmore,Bowmore,The Devil's Casks Limited Release III,,$89.99
-Brora,35 Year Old Limited Release 1978,35,$1299
-Brora,37 Year Old Limited Release 1977,37,$1999 
+Brora,Brora,35 Year Old Limited Release 1978,35,$1299
+Brora,Brora,37 Year Old Limited Release 1977,37,$1999 
 Bruichladdich,Bruichladdich,21 Year Old,21,$219.99
 Bruichladdich,Bruichladdich,Cuvee 382 La Bernice,21,$149.99
 Bruichladdich,Bruichladdich,Cuvee 640 Eroica,21,$149.99
@@ -175,7 +174,7 @@ Caol Ila,Caol Ila,12 Year Old,12,$59.99
 Caol Ila,Caol Ila,15 Year Old Unpeated Malt Release 1998,15,$119.99
 Caol Ila,Caol Ila,17 Year Old Unpeated Malt Release 1997,17,$149.99
 Caol Ila,Caol Ila,30 Year Old Special Release 1983,30,$749.99
-Caol Ila,Caol Ila,Unpeated Malt Billy Stitchell's Reserve 2013,$89.99
+Caol Ila,Caol Ila,Unpeated Malt Billy Stitchell's Reserve 2013,,$89.99
 Cardhu,Cardhu,12 Year Old,12,$49.99
 Chieftain's,Braeval,19 Year Old Cask #95042 Beaune Cask Finish 1996,19,$119.99
 Chieftain's,Dailuaine,30 Year Old 1983,30,$219.99
@@ -204,31 +203,31 @@ Cragganmore,Cragganmore,25 Year Old Special Release 1978,25,$549.99
 Cragganmore,Cragganmore,Distiller's Edition,,$79.99
 Craigellachie,Craigellachie,13 Year Old,13,$59.99
 Craigellachie,Craigellachie,23 Year Old,23,$299.99
-Creative Whisky Co.,Dailuane,The Creative Whisky Co.,21 Year Old Cask Str 1992,21,$99.99
-Creative Whisky Co.,Tormore,The Creative Whisky Co.,29 Year Old Cask Str 1984,29,$219.99
-Blackadder,Dailuane,15 Year Old 1996 ,1996,15,$109.99
+Creative Whisky Co.,Dailuane,21 Year Old Cask Str 1992,21,$99.99
+Creative Whisky Co.,Tormore,29 Year Old Cask Str 1984,29,$219.99
+Blackadder,Dailuane,15 Year Old 1996 1996,15,$109.99
 Dailuane,Dailuane,34 Year Old Special Release 1980,34,$599.99
 Dalmore,Dalmore,12 Year Old Highland Malt,12,$59.99
 Dalmore,Dalmore,15 Year Old Highland Malt,15,$98.99
 Dalmore,Dalmore,Astrum 40 Year Old Crystal Decanter,40,$3499
 Dalmore,Dalmore,Cigar Malt Reserve,,$129.99
-Dalmore,Dalmore Daniel Boulud Bespoke,,$229.99
+Dalmore,Dalmore,Daniel Boulud Bespoke,,$229.99
 Dalwhinnie,Dalwhinnie,15 Year Old,15,$69.99
 Dalwhinnie,Dalwhinnie,Vintage Distiller's Edition,,$89.99
 Deanston,Deanston,12 Year Old Unchillfiltered,12,$49.99
 Deanston,Deanston,18 Year Old Cognac Cask Finished,18,$119.99
-Deanston,18 Year Old finished in ex Bourbon Barrels,18,$99.99
+Deanston,Deanston,18 Year Old finished in ex Bourbon Barrels,18,$99.99
 Deanston,Deanston,Virgin Oak,,$34.99
 Drumguish,Drumguish,Highland Scotch,,$19.99
 Duncan Taylor,Caol Ila,30 Year Old Sherry Cask #405044 1983,30,$529.99
 Duncan Taylor,Dailuane,14 Year Old Unchillfiltered 1998,14,$79.99
-Duncan Taylor,Dimensions Bruichladdich,Bruichladdich,21 Year Old Cask #3673 1992,21,$179.99
-Duncan Taylor,Dimensions Clynelish,18 Year Old Cask #10169 1995,18,$139.99
-Duncan Taylor,Dimensions Glen Moray,25 Year Old Cask #6671 1987,25,$219.99
-Duncan Taylor,Isle of Jura,Isle of Jura,18 Year Old Vintage 1992,18,$99.99
+Duncan Taylor,Bruichladdich,Dimensions 21 Year Old Cask #3673 1992,21,$179.99
+Duncan Taylor,Clynelish,Dimensions 18 Year Old Cask #10169 1995,18,$139.99
+Duncan Taylor,Glen Moray,Dimensions 25 Year Old Cask #6671 1987,25,$219.99
+Duncan Taylor,Isle of Jura,18 Year Old Vintage 1992,18,$99.99
 Duncan Taylor,Laphroaig,16 Year Old Cask #3320 1997,16,$389.99
-Duncan Taylor,Octave Cask Macduff,14 Year Old 1998,14,$119.99
-Duncan Taylor,Octave Mortlach,16 Year Old 1997,16,$179.99
+Duncan Taylor,Macduff,Octave Cask 14 Year Old 1998,14,$119.99
+Duncan Taylor,Mortlach,Octave 16 Year Old 1997,16,$179.99
 Duthies,Glenrothes,15 Year Old Unchillfiltered,15,$69.99
 Edradour,Edradour,10 Year Old,10,$59.99
 Edradour,Edradour,11 Year Old Chateauneuf du Pape Cask Finish 2002,11,$89.99
@@ -253,7 +252,7 @@ Edition Spirits,Clynelish,First Editions Clynelish 24 Year Old 1988,24,$129.99
 Edition Spirits,Dailuaine,First Editions Clynelish 12 Year Old 2001,12,$79.99
 Edition Spirits,Fettercairn,First Editions Fettercairn 12 Year Old 2001,12,$79.99
 Edition Spirits,Inchgower,First Editions Inchgower 24 Year Old 1990,24,$139.99
-Edition Spirits,Isle of Jura,Isle of Jura,First Editions Isle of Jura,21 Year Old 1993,21,$139.99
+Edition Spirits,Isle of Jura,First Editions Isle of Jura 21 Year Old 1993,21,$139.99
 Edition Spirits,Longmorn,First Editions Longmorn 21 Year Old 1992,21,$129.99
 Edition Spirits,Miltonduff,First Editions Miltonduff 30 Year Old 1984,30,$159.99
 Edition Spirits,Mortlach,First Editions Mortlach 24 Year Old 1989,24,$139.99
@@ -261,14 +260,14 @@ Edition Spirits,Strathmill,First Editions Strathmill 23 Year Old 1989,23,$119.99
 George & J.G. Smith's,Glenlivet,44 Year Old 1950,44,$679.99
 George & J.G. Smith's,Glenlivet,45 Year Old 1966,45,$899.99
 George & J.G. Smith's,Glenlivet,46 Year Old 1965,46,$999.99
-Glen Garioch,,Glen Garioch,12 Year Old,12,$59.99
-Glen Garioch,,16 Year Old Hogshead #987 1998,16,$89.99
+Glen Garioch,Glen Garioch,12 Year Old,12,$59.99
+Glen Garioch,Glen Garioch,16 Year Old Hogshead #987 1998,16,$89.99
 Glen Garioch,Glen Garioch,1797 Founder's Reserve,,$49.99
 Glen Garioch,Glen Garioch,26 Year Old Vintage 1986,26,$249.99
 Glen Garioch,Glen Garioch,46 Year Old 1958,46,$2799
 Glen Grant,Glen Grant,10 Year Old,10,$46.99
 Glen Grant,Glen Grant,16 Year Old,16,$79.99
-Blackadder,Glen Grant,29 Year Old,1982,29,$224.99
+Blackadder,Glen Grant,29 Year Old 1982,29,$224.99
 Glen Grant,Glen Grant,50 Year Old Limited Release 1963,50,$14999
 Glen Grant,Glen Grant,Five Decades of Passion in Distilling,,$149.99
 Glen Grant,Glen Grant,Major's Reserve,,$34.99
@@ -292,7 +291,7 @@ Glendronach,Glendronach,Parliament 21 Year Old,21,$189.99
 Glendronach,Glendronach,Peated Highland Malt,,$69.99
 Glenfarclas,Glenfarclas,Ferd 10 Year Old Single Cask for Fountainhead 2005,10,$89.99
 Glenfarclas,Glenfarclas,10 Year Old,10,$49.99
-Glenfarclas,Glenfarclas,105 Cask Strength,$79.99
+Glenfarclas,Glenfarclas,105 Cask Strength,,$79.99
 Glenfarclas,Glenfarclas,12 Year Old,12,$54.99
 Glenfarclas,Glenfarclas,17 Year Old,17,$99.99
 Glenfarclas,Glenfarclas,21 Year Old,21,$139.99
@@ -301,7 +300,7 @@ Glenfarclas,Glenfarclas,40 Year Old Millenium Release,40,$3499
 Glenfarclas,Glenfarclas,Family Cask #175 Release 1963,,$999.99
 Glenfarclas,Glenfarclas,Family Cask #2599 Release 1973,,$699.99
 Glenfiddich,Glenfiddich,12 Year Old Special Reserve,12,$35.99
-Glenfiddich,Glenfiddich,14 Year Bourbon Barrel Reserve,$49.99
+Glenfiddich,Glenfiddich,14 Year Bourbon Barrel Reserve,14,$49.99
 Glenfiddich,Glenfiddich,15 Year Old Solera Reserve,15,$69.99
 Glenfiddich,Glenfiddich,18 Year Old,18,$109.99
 Glenfiddich,Glenfiddich,21 Year Old Gran Reserva Rum Cask Finish,21,$219.99
@@ -310,12 +309,12 @@ Glenfiddich,Glenfiddich,40 Year Old 2012 Release 2012,40,$2999
 Glenfiddich,Glenfiddich,40 Year Old 2013 Release 2013,40,$3999
 Glenfiddich,Glenfiddich,40 Year Old 2015 Release 2015,40,$3999
 Glenfiddich,Glenfiddich,50 Year Old US Release 1964,50,$29999
-Glenfiddich,Glenfiddich,Rare Vintage Release 1978,$3799
+Glenfiddich,Glenfiddich,Rare Vintage Release 1978,,$3799
 Glenfiddich,Glenfiddich,The Original,,$59.99
 Glenglassaugh,Glenglassaugh,30 Year Old,30,$499.99
 Glenglassaugh,Glenglassaugh,34 Year Old Sauternes Wood Finish 1976,34,$699.99
 Glenglassaugh,Glenglassaugh,41 Year Old Release 2013,41,$2499
-Glenglassaugh,Glenglassaugh,45 Year Old,45,$2,799
+Glenglassaugh,Glenglassaugh,45 Year Old,45,$2799
 Glenglassaugh,Glenglassaugh,Evolution Cask Strength,,$79.99
 Glenglassaugh,Glenglassaugh,Over 40 Years old 1967,40,$1999
 Glenglassaugh,Glenglassaugh,Revival Un-Chill Filtered,,$59.99
@@ -381,16 +380,16 @@ Gordon and MacPhail,Glen Mhor,30 Year Old Vintage 1980,30,$499.99
 Gordon and MacPhail,Glen Scotia,21 Year Old,21,$149.99
 Gordon and MacPhail,Glenburgie,10 Year Old,10,$34.99
 Gordon and MacPhail,Glenlivet,61 Year Old from the Ultra Collection,61,$9999
-Gordon and MacPhail,Glenrothes 8 Year Old Macphail's Collection,$34.99
+Gordon and MacPhail,Glenrothes,8 Year Old Macphail's Collection,8,$34.99
 Gordon and MacPhail,Glentauchers,10 Year Old Refill Sherry #648 Chicago 2003,10,$44.99
 Gordon and MacPhail,Glenury Royal,28 Year Old Old & Rare 1984,28,$799.99
 Gordon and MacPhail,Highland Park,21 Year Old Cask Strength 1992,21,$139.99
-Gordon and MacPhail,Highland Park 8 Year Old Macphail's Collection,$34.99
+Gordon and MacPhail,Highland Park,8 Year Old Macphail's Collection,8,$34.99
 Gordon and MacPhail,Ledaig,13 Year Old Cask #69 2000,13,$69.99
 Gordon and MacPhail,Linkwood,21 Year Old,21,$129.99
 Gordon and MacPhail,Linkwood,61 Year Old from the Ultra Collection 1953,61,$9999
 Gordon and MacPhail,Mannochmore,13 Year Cask Strength 1998,13,$69.99
-Gordon and MacPhail,Miltonduff 9 Year Cask #1727 Cask 2004,9,$29.99
+Gordon and MacPhail,Miltonduff,9 Year Cask #1727 Cask 2004,9,$29.99
 Gordon and MacPhail,Mortlach,15 Year Old,15,$79.99
 Gordon and MacPhail,Mortlach,19 Year Old FF Butt #8172 1994,19,$159.99
 Gordon and MacPhail,Mortlach,25 Year Old,25,$149.99
@@ -401,12 +400,12 @@ Gordon and MacPhail,St. Magdalene,31 Year Old Old & Rare Vintage 1982,31,$849.99
 Gordon and MacPhail,Strathisla,53 Year Old 1957,53,$1149
 Gordon and MacPhail,Strathisla,57 Year Old from the Ultra Collection 1957,57,$9999
 Gordon and MacPhail,Strathmill,14 Year Old Cask #542 1999,14,$69.99
-Gordon and MacPhail,Tomatin 8 Year Old Cask Strength Barrel #3903 Chicago Cask,$64.99
-Gordon and MacPhail,Tomatin 8 Year Old Unchillfiltered 2004,$49.99
-Gordon and MacPhail,Tomintoul,44 Year Old 1968,44,$1,499
+Gordon and MacPhail,Tomatin,8 Year Old Cask Strength Barrel #3903 Chicago Cask,8,$64.99
+Gordon and MacPhail,Tomatin,8 Year Old Unchillfiltered 2004,8,$49.99
+Gordon and MacPhail,Tomintoul,44 Year Old 1968,44,$1499
 Hart Brothers,Bowmore,22 Year Old,22,$129.99
 Hazelburn,Hazelburn,10 Year Old aged in Rundlets & Kilderkins,10,$119.99
-Hazelburn,Hazelburn 8 Year Old,8,$69.99
+Hazelburn,Hazelburn,8 Year Old,8,$69.99
 Highland Park,Highland Park,12 Year Old,12,$52.99
 Highland Park,Highland Park,15 Year Old,15,$89.99
 Highland Park,Highland Park,18 Year Old,18,$129.99
@@ -414,7 +413,7 @@ Highland Park,Highland Park,25 Year Old,25,$499.99
 Highland Park,Highland Park,30 Year Old,30,$899.99
 Highland Park,Highland Park,40 Year Old,40,$2799
 Highland Park,Highland Park,Dark Origins,,$79.99
-Highland Park,Highland Park,Rare Vintage 1968,$3999
+Highland Park,Highland Park,Rare Vintage 1968,,$3999
 Highland Park,Highland Park,Valhalla Collection Freya,15,$279.99
 Isle of Jura,Isle of Jura,Prophecy Peated Single Malt,,$79.99
 Isle of Jura,Isle of Jura,Vintage 1977,,$699.99
@@ -452,13 +451,13 @@ Longmorn,Longmorn,16 Year Old,16,$89.99
 Longrow,Longrow,18 Year Old,18,$169.99
 Longrow,Longrow,Peated,,$59.99
 Longrow,Longrow,Red Cask Strength Port Casked,11,$79.99
-Longrow,Longrow,Red,12 Year Old Pinot Noir Cask 1996,12,$119.99
+Longrow,Longrow,Red 12 Year Old Pinot Noir Cask 1996,12,$119.99
 Macallan,Macallan,10 Year Old Fine Oak,10,$49.99
 Macallan,Macallan,12 Year Old Traditional,12,$52.99
 Macallan,Macallan,15 Year Old Fine Oak,15,$99.99
 Macallan,Macallan,17 Year Old Fine Oak,17,$219.99
 Macallan,Macallan,18 Year Old Traditional,18,$259.99
-Macallan,Macallan,1824 Masters Series Expression No. 6 in Lalique Crystal,$3999
+Macallan,Macallan,1824 Masters Series Expression No. 6 in Lalique Crystal,,$3999
 Macallan,Macallan,21 Year Old Fine Oak,21,$499.99
 Macallan,Macallan,25 Year Old Traditional,25,$1499
 Macallan,Macallan,30 Year Old Fine Oak,30,$2999
@@ -477,29 +476,29 @@ Macallan,Macallan,Master's of Photography Testino Version Red,,$3499
 Macallan,Macallan,Master's of Photography Testino Version Yellow,,$3499
 Macallan,Macallan,Masters of Photography The Bar Print 1991,21,$2999
 Macallan,Macallan,Masters of Photography The Gallery Print 1989,23,$2999
-Macallan,Macallan,Masters of Photography The Skyline Print 1996,26,$2,999
+Macallan,Macallan,Masters of Photography The Skyline Print 1996,26,$2999
 Macallan,Macallan,Rare Cask from First Fill Sherry Casks,,$299.99
 Macallan,Macallan,1824 Masters Series Reflexion,,$1199
 MacKillop's Choice,Caol Ila,22 Year Old Unchillfiltered 1990,22,$169.99
-MacKillop's Choice Cragganmore,22 Year Old 1990,22,$119.99
+MacKillop's Choice,Cragganmore,22 Year Old 1990,22,$119.99
 Mackillop's Choice,Dalmore,22 Year Old 1986,22,$169.99
 Malt Whiskey Company,Glenglassaugh,40 Year Old from Refill Sherry Hoggie 1973,40,$999.99
 Mortlach,Mortlach,18 Year Old,18,$299.99
 Mortlach,Mortlach,25 Year Old,25,$999.99
 Mortlach,Mortlach,Rare Old Single Malt,,$129.99
 Oban,Oban,14 Year Old,14,$69.99
-Oban,Oban Distiller's Edition,,$89.99
-Oban,Oban Little Bay Limited Release,,$69.99
+Oban,Oban,Distiller's Edition,,$89.99
+Oban,Oban,Little Bay Limited Release,,$69.99
 Bruichladdich,Bruichladdich,Octomore 5.1,5,$189.99
 Bruichladdich,Bruichladdich,Octomore 7.1-208,,$169.99
 Bruichladdich,Bruichladdich,Octomore 7.3,,$179.99
 Bruichladdich,Bruichladdich,Octomore 7.4,7,$249.99
 Bruichladdich,Bruichladdich,Octomore Eighth US Release,10,$269.99
 Old Ballantruan,Old Ballantruan,Peated Single Malt,,$49.99
-Hunter Laing and Company, Ltd.,Craigellachie,Old Malt Cask 18 Year Old from Sherry Butt 1995,18,$169.99
-Hunter Laing and Company, Ltd.,Laphroaig,Old Malt Cask 16 Year Old 1997,16,$149.99
-Hunter Laing and Company, Ltd.,Laphroaig,Old Malt Cask Longmorn 20 Year Old 1993,20,$139.99
-Hunter Laing and Company, Ltd.,Laphroaig,Old Malt Cask Probably Speyside's Finest Distillery 22 Year Handpicked 1991,22,$119.99
+Hunter Laing and Company Ltd.,Craigellachie,Old Malt Cask 18 Year Old from Sherry Butt 1995,18,$169.99
+Hunter Laing and Company Ltd.,Laphroaig,Old Malt Cask 16 Year Old 1997,16,$149.99
+Hunter Laing and Company Ltd.,Laphroaig,Old Malt Cask Longmorn 20 Year Old 1993,20,$139.99
+Hunter Laing and Company Ltd.,Laphroaig,Old Malt Cask Probably Speyside's Finest Distillery 22 Year Handpicked 1991,22,$119.99
 Old Pulteney,Old Pulteney,12 Year Old,12,$37.99
 Old Pulteney,Old Pulteney,17 Year Old,17,$89.99
 Old Pulteney,Old Pulteney,35 Year Old,35,$699.99
@@ -510,11 +509,11 @@ Bruichladdich,Bruichladdich,Port Charlotte Islay Barley Harvest and Distillation
 Bruichladdich,Bruichladdich,Port Charlotte Scottish Barley Heavily Peated,,$59.99
 Port Ellen,Port Ellen,32 Year Old 15th Limited Release 1983,32,$3799
 Port Ellen,Port Ellen,35 Year Old 14th Limited Release 1978,35,$3499
-Rosebank,Rosebank,21 Year Old Limited Release 1992, 2014,21,$499.99
+Rosebank,Rosebank,21 Year Old Limited Release 1992,21,$499.99
 Royal Brackla,Royal Brackla,12 Year Old,12,$49.99
 Royal Brackla,Royal Brackla,16 Year Old,16,$119.99
 Samaroli Selezione,Glenburgie,1989 Distillation 1989,,$199.99
-Samaroli Selezione,,Top Class Tomintoul,44 Year Old 1967 Vintage 1967,44,$599.99
+Samaroli Selezione,Tomintoul,Top Class 44 Year Old 1967 Vintage 1967,44,$599.99
 Scapa,Scapa,Skiren,,$89.99
 Scott's Selection,Aberlour,18 Year Old Cask Strength 1989,18,$129.99
 Scott's Selection,Auchentoshan,21 Year Old 1983,21,$119.99
@@ -533,11 +532,11 @@ Signatory Vintage,Caol Ila,7 Year Old Cask Strength ex-Bourbon Barrel #311754 20
 Signatory Vintage,Clynelish,7 Year Old Bourbon Bbl #800001 2008,7,$49.99
 Signatory Vintage,Glen Keith,19 Year Old HHD #171202 Stoller Selection 1995,19,$59.99
 Signatory Vintage,Glenburgie,19 Year Old Hogshead #6450 Cask 1995,19,$69.99
-Signatory Vintage,Glenglassaugh,Glenglassaugh,33 Year Old Cask Strength Cask no. 1508 1979,33,$329.99
+Signatory Vintage,Glenglassaugh,33 Year Old Cask Strength Cask no. 1508 1979,33,$329.99
 Signatory Vintage,Glenisla,37 Year Old Hogshead #19604 Chicago Selection 1977,37,$389.99
 Signatory Vintage,Glenlivet,19 Year Old Cask Strength First Fill Sherry Butt #166947 1995,19,$119.99
 Signatory Vintage,Glenlivet,32 Year Old Refill Sherry Hogshead #9455 Chicago 1981,32,$299.99
-Signatory Vintage,Glenlivet 8 Year Old Cask Strength First Fill Sherry Butt #901038 2006,$79.99
+Signatory Vintage,Glenlivet,8 Year Old Cask Strength First Fill Sherry Butt #901038 2006,8,$79.99
 Signatory Vintage,Glenrothes,11 Year Old Unchillfiltered Hogshead 1999,11,$54.99
 Signatory Vintage,Highland Park,16 Year Old Cask Strength ex-Bourbon Barrel #800198 Chicago Cask 1999,16,$129.99
 Signatory Vintage,Inchmurrin,20 Year Old Hogshead #2778 Cask 1993,20,$79.99
@@ -551,7 +550,7 @@ Signatory Vintage,Mortlach,16 Year Old Sherry Butt #2 Finished Binny's Handpick 
 Signatory Vintage,Mortlach,7 Year Old Cask Strength First Fill Bourbon Barrel #800016 2008,7,$59.99
 Signatory Vintage,Rare Ayrshire (Ladyburn),37 Year Old Cask Strength Stoller Csk 1975,37,$349.99
 Signatory Vintage,Tamdhu,10 Year Old FF Sherry Butt #354 Stoller Selection 2005,10,$49.99
-Glendullan,Glendullan,Singleton of Glendullan 38 Year Old Special Release 1975, 2014,38,$1299
+Glendullan,Glendullan,Singleton of Glendullan 38 Year Old Special Release 1975,38,$1299
 Speyburn,Speyburn,10 Year Old,10,$27.99
 Speyburn,Speyburn,25 Year Old,25,$299.99
 Speyburn,Speyburn,Arranta Casks,,$34.99
@@ -576,16 +575,16 @@ Springbank,Springbank,18 Year Old Port Cask #14/214-3 1996,18,$249.99
 Springbank,Springbank,18 Year Old Single Cask from Refill Sherry 1996,18,$199.99
 Springbank,Springbank,19 Year Old Refill Bourbon Cask #14/483-27 1996,19,$299.99
 Springbank,Springbank,20 Year Old Fresh Rum Cask #280 1995,20,$349.99
-Springbank,Springbank,Green,12 Year Old,12,$119.99
-Springbank,Springbank,Green,13 Year Old,13,$119.99
-Strathmill,Strathmill,25 Year Old Special Release 1988, 2014,25,$499.99
+Springbank,Springbank,Green,12,$119.99
+Springbank,Springbank,Green,13,$119.99
+Strathmill,Strathmill,25 Year Old Special Release 1988,25,$499.99
 Stronachie,Stronachie,10 Year Old Highland Single Malt,10,$49.99
 Stronachie,Stronachie,12 Year Old Highland Single Malt,12,$49.99
 Stronachie,Stronachie,18 Year Old Highland Single Malt,18,$99.99
 Talisker,Talisker,10 Year Old,10,$64.99
 Talisker,Talisker,25 Year Old,25,$549.99
 Talisker,Talisker,30 Year Old,30,$799.99
-TaliskerTalisker,Distiller's Edition,,$89.99
+Talisker,Talisker,Distiller's Edition,,$89.99
 Talisker,Talisker,Storm,,$69.99
 Tamdhu,Tamdhu,10 Year Old,10,$59.99
 Tamdhu,Tamdhu,Batch Strength,,$89.99
@@ -599,7 +598,7 @@ Tomatin,Tomatin,12 Year Old French Oak Finish,12,$69.99
 Tomatin,Tomatin,14 Year Old Port Cask Finish,14,$79.99
 Tomatin,Tomatin,15 Year Old Tempranillo Cask Finished,15,$59.99
 Tomatin,Tomatin,18 Year Old,18,$89.99
-Tomatin,Tomatin,Cu Bocan Lightly Peated,$59.99
+Tomatin,Tomatin,Cu Bocan Lightly Peated,,$59.99
 Tomatin,Tomatin,Cuatro Series Fino Sherry Cask Finish,12,$49.99
 Tomatin,Tomatin,Cuatro Series Manzanilla Sherry Cask Finish,12,$49.99
 Tomatin,Tomatin,Cuatro Series Oloroso Sherry Cask Finish,12,$49.99
