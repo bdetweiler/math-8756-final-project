@@ -42,13 +42,13 @@ Battlehill,Glenrothes,20 Year Old,20,$114.99
 Battlehill,Glentauchers,6 Year Old,6,$48.99
 Battlehill,Imperial,17 Year Old,17,$89.99
 Battlehill,Longmorn,20 Year Old,20,$99.99
-Benriach,Benriach,12 Year Old,12,$54.99
-Benriach,Benriach,16 Year Old,16,$84.99
-Benriach,Benriach,20 Year Old,20,$134.99
-Benriach,Benriach,Curiositas Peated 10 Year Old,10,$54.99
-Benriach,Benriach,Heart of Speyside,,$39.99 
-Benriach,Benriach,Horizons 12 Year Old,12,$69.99 
-Benriach,Benriach,Solstice Heavily Peated Port Finished 17 Year Old,17,$89.99 
+BenRiach,BenRiach,12 Year Old,12,$54.99
+BenRiach,BenRiach,16 Year Old,16,$84.99
+BenRiach,BenRiach,20 Year Old,20,$134.99
+BenRiach,BenRiach,Curiositas Peated 10 Year Old,10,$54.99
+BenRiach,BenRiach,Heart of Speyside,,$39.99 
+BenRiach,BenRiach,Horizons 12 Year Old,12,$69.99 
+BenRiach,BenRiach,Solstice Heavily Peated Port Finished 17 Year Old,17,$89.99 
 Benromach,Benromach,Hermitage Wood Finish 10 Year Old 2005,10,$84.99 
 Benromach,Benromach,Organic,,$64.99 
 Benromach,Benromach,Peat Smoke,,$69.99 
@@ -79,9 +79,9 @@ Bowmore,Bowmore,Small Batch Reserve,,$42.99
 Brora,Brora,37 Year Old 14th Release,37,$1979.99 
 Bruichladdich,Bruichladdich,Black Art 4 23 Year Old,23,$399.99 
 Bruichladdich,Bruichladdich,Islay Barley Rockside Farm 2007,,$69.99 
-Bruichladdich,Bruichladdich,Octomore 06.1 Scottish Barley,,$146.99
-Bruichladdich,Bruichladdich,Octomore 06.3 Islay Barley,,$199.99
-Bruichladdich,Bruichladdich,Octomore Scottish Barley 7.1,,$149.99
+Bruichladdich,Bruichladdich,Octomore 06.1,,$146.99
+Bruichladdich,Bruichladdich,Octomore 06.3,,$199.99
+Bruichladdich,Bruichladdich,Octomore 7.1,,$149.99
 Bruichladdich,Bruichladdich,Port Charlotte Heavily Peated 10 Year Old,10,$59.99
 Bruichladdich,Bruichladdich,Port Charlotte Islay Barley,,$77.99
 Bruichladdich,Bruichladdich,Port Charlotte Scottish Barley Heavily Peated,,$64.99
@@ -199,7 +199,6 @@ Glenmorangie,Glenmorangie,Milsean Private Edition,,$109.99
 Glenmorangie,Glenmorangie,Nectar D'or,,$87.99
 Glenmorangie,Glenmorangie,Original 10 Year Old,10,$34.98
 Glenmorangie,Glenmorangie,Pioneering Collection Sampler Pack,,$42.99
-Glenmorangie,Glenmorangie,Pride '1981',,$5799.99
 Glenmorangie,Glenmorangie,Quinta Ruban,,$59.99
 Glenmorangie,Glenmorangie,Signet,,$199.99
 Glenmorangie,Glenmorangie,Tusail,,$109.99
@@ -342,16 +341,16 @@ Talisker,Talisker,18 Year Old,18,$174.99
 Talisker,Talisker,Storm,,$59.99 
 Tamdhu,Tamdhu,10 Year Old,10,$64.99
 Tamdhu,Tamdhu,Batch Strength Single Malt Whisky,,$97.99
-Arran Malt,Arran Malt,14 Year Old,14,$79.99
-Arran Malt,Arran Malt,18 Year Old,18,$134.99
-Arran Malt,Arran Malt,Amarone Cask,,$84.99
-Arran Malt,Arran Malt,Machrie Moor Peated,,$73.99
-Arran Malt,Arran Malt,Port Cask,,$84.99
-Arran Malt,Arran Malt,Sauternes Cask,,$84.99
-Arran Malt,Arran Malt,Sherry Cask Finished,17,$109.99
-Arran Malt,Arran Malt,Single Bourbon Cask,,$109.99
-Arran Malt,Arran Malt,Single Malt 10 Year Unchill Filtered Scotch,10,$54.99
-Arran Malt,Arran Malt,the Devil's Punch Bowl #3- The Fiendish Finale,,$129.99 
+Arran,Arran,14 Year Old,14,$79.99
+Arran,Arran,18 Year Old,18,$134.99
+Arran,Arran,Amarone Cask,,$84.99
+Arran,Arran,Machrie Moor Peated,,$73.99
+Arran,Arran,Port Cask,,$84.99
+Arran,Arran,Sauternes Cask,,$84.99
+Arran,Arran,Sherry Cask Finished,17,$109.99
+Arran,Arran,Single Bourbon Cask,,$109.99
+Arran,Arran,Single Malt 10 Year Unchill Filtered Scotch,10,$54.99
+Arran,Arran,the Devil's Punch Bowl #3- The Fiendish Finale,,$129.99 
 Glenlivet,Glenlivet,12 Year Old,12,$36.98 
 Glenlivet,Glenlivet,15 Year French Oak Finished Scotch,15,$69.99
 Glenlivet,Glenlivet,16 Year Nadurra,16,$74.99

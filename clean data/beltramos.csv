@@ -14,12 +14,12 @@ The Creative Whisky Co.,Ardmore,Exclusive Malts 14 Year Old,14,$129.99
 Arran,Arran,14 Year Old,14,$69.99
 Arran,Arran,12 Year Old,12,$69.99
 Arran,Arran,18 Year Old,18,$129.99
-Arran,Arran Malt,Machrie Moor Peated,,$79.99
-Arran,Arran Malt,Port Cask,,$74.99
+Arran,Arran,Machrie Moor Peated,,$79.99
+Arran,Arran,Port Cask,,$74.99
 Arran,Arran,The Bothy,,$84.99
 Arran,Arran,The Illicit,,$149.99
-Arran Malt,Arran Malt,Single Bourbon Cask,,$129.99
-Arran Malt,Arran Malt,Sherry Cask Finished,17,$124.99
+Arran,Arran,Single Bourbon Cask,,$129.99
+Arran,Arran,Sherry Cask Finished,17,$124.99
 Auchentoshan,Auchentoshan,18 Year Old,18,$134.99
 Auchentoshan,Auchentoshan,21 Year Old,21,$189.99
 Blackadder,Auchentoshan,23 Year OId,23,$219.99
@@ -42,10 +42,10 @@ Ben Nevis,Ben Nevis,15 Years Old,15,$289.99
 The Creative Whisky Co.,Ben Nevis,Exclusive Malts 17 Year Old Sherry Cask,17,$139.99
 Ben Nevis,Ben Nevis,Glencoe 8 Years Old,8,$89.99
 Ben Nevis,Ben Nevis,Traditional McDonald's,,$79.99
-Benriach,Benriach,20 Year Old,20,$149.99
-Benriach,Benriach,Horizons 12 Year Old,12,$79.99
-Benriach,Benriach,12 Year Old,12,$54.99
-Benriach,Benriach,16 Year Old,16,$84.99
+BenRiach,BenRiach,20 Year Old,20,$149.99
+BenRiach,BenRiach,Horizons 12 Year Old,12,$79.99
+BenRiach,BenRiach,12 Year Old,12,$54.99
+BenRiach,BenRiach,16 Year Old,16,$84.99
 Cadenhead's,BenRiach-Glenlivet, Aged 19 Years Small Batch,19,$134.99
 The Creative Whisky Co.,BenRiach,17 Year Old,17,$139.99
 Benromach,Benromach,10 Year Old,10,$54.99
@@ -64,13 +64,13 @@ Chieftain's,Braevel,19 Year Old Red Wine Finish,19,$119.99
 Bruichladdich,Bruichladdich,22 Year Old Signatory,22,$139.99
 Cadenhead's,Bruichladdich,Bruichladdich 22 Year Old,22,$209.99
 Bruichladdich,Bruichladdich,Black Art 4 23 Year Old,23,$349.99
-Bruichladdich,Bruichladdich,Cuvee 640 Eroica,,$225.00
+Bruichladdich,Bruichladdich,Cuvee 640 Eroica,21,$225.00
 Duncan Taylor,Bruichladdich,Dimensions 10 Year Old,10,$199.99
 The Creative Whisky Co.,Bruichladdich,11 Years Old,11,$114.99
 Bruichladdich,Bruichladdich,Islay Barley Rockside Farm,,$57.99
-Bruichladdich,Bruichladdich,Octomore 06.1 Scottish Barley,,$149.99
-Octomore,Octomore,Batch 7.1,,$169.99
-Octomore,Octomore,Batch 7.3,,$179.99
+Bruichladdich,Bruichladdich,Octomore 06.1,,$149.99
+Bruichladdich,Bruichladdich,Octomore 7.1,,$169.99
+Bruichladdich,Bruichladdich,Octomore 7.3,,$179.99
 Bruichladdich,Bruichladdich,Port Charlotte Scottish Barley Heavily Peated,,$56.99
 Bruichladdich,Bruichladdich,Port Charlotte Islay Barley,,$64.99
 Bruichladdich,Bruichladdich,the Classic Laddie Scottish Barley,,$49.99
@@ -107,9 +107,9 @@ Edradour,Edradour,10 Year Old,10,$58.99
 Chieftain's,Fettercairn,Aged 19 Years,19,$134.99
 The Creative Whisky Co.,GlenGarioch,20 Year Old,20,$159.99
 Chieftain's,Glen Grant,20 Year Old,20,$159.99
-Hart Brothers,GlenGrant,13 Year Old,13,$74.99
-GlenGrant,GlenGrant,10 Year Old,10,$44.99
-GlenGrant,GlenGrant,16 Year Old,16,$74.99
+Hart Brothers,Glen Grant,13 Year Old,13,$74.99
+Glen Grant,Glen Grant,10 Year Old,10,$44.99
+Glen Grant,Glen Grant,16 Year Old,16,$74.99
 The Creative Whisky Co.,GlenKeith,Aged 19 Years,19,$159.99
 Gordon and MacPhail,GlenScotia,21 Year Old,21,$149.99
 Blackadder,Glen Spey,22 Year Old,22,$209.99
@@ -151,7 +151,6 @@ Glenmorangie,Glenmorangie,Nectar D'or,,$65.98
 Glenmorangie,Glenmorangie,Quinta Ruban,,$47.99
 Glenmorangie,Glenmorangie,Signet,,$229.99
 Glenmorangie,Glenmorangie,Lasanta,,$45.98
-Glenmorangie,Glenmorangie,Pride '1981',,$5899.99
 Glenrothes,Glenrothes,Alba Reserve,,$56.99
 Signatory Vintage,Glenrothes,Signatory Glenrothes 15 Year Old Single Malt Whisky 1999,15,$69.99
 Glenrothes,Glenrothes,2001,,$59.99

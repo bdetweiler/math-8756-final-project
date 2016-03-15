@@ -41,7 +41,7 @@ Gordon and MacPhail,Ardmore,15 Years Old,15,$99.50
 Ardmore,Ardmore,30 Year Old,30,$435.00
 Ardmore,Ardmore,Legacy,,$52.50
 Arran,Arran,The Bothy Quarter Cask,,$83.50
-Arran,Arran,Machrie Moor,,$71.00
+Arran,Arran,Machrie Moor Peated,,$71.00
 Arran,Arran,10 Year Old,10,$54.00
 Arran,Arran,12 Year Old Cask Strength,12,$83.00
 Arran,Arran,14 Year Old,14,$90.00
@@ -276,18 +276,18 @@ Glengoyne,Glengoyne,12 Year Old,12,$58.50
 Glengoyne,Glengoyne,15 Year Old,15,$79.99
 Glengoyne,Glengoyne,18 Year Old,18,$127.00
 Glengoyne,Glengoyne,21 Year Old,21,$180.00
-GlenGrant,GlenGrant,10 Year Old,10,$48.00
-Gordon and MacPhail,GlenGrant,10 Year Old,10,$65.00
-Signatory Vintage,GlenGrant,13 Year Old 1997 Vintage Cask Strength,13,$184.50
-Hart Brothers,GlenGrant,13 Year Old,13,$82.50
-Signatory Vintage,GlenGrant,13 Year Old,13,$184.50
-GlenGrant,GlenGrant,16 Year Old,16,$79.99
-Gordon and MacPhail,GlenGrant,16 Year Old Cask Strength,16,$120.00
-Duncan Taylor,GlenGrant,18 Year Old,18,$160.00
-Gordon and MacPhail,GlenGrant,1965,48,$1100
-AD Rattray,GlenGrant,20 Year Old Cask Collection,20,$125.00
-Chieftain's,GlenGrant,Aged 20 Years,20,$175.00
-GlenGrant,GlenGrant,Five Decades,,$150.00
+Glen Grant,Glen Grant,10 Year Old,10,$48.00
+Gordon and MacPhail,Glen Grant,10 Year Old,10,$65.00
+Signatory Vintage,Glen Grant,13 Year Old 1997 Vintage Cask Strength,13,$184.50
+Hart Brothers,Glen Grant,13 Year Old,13,$82.50
+Signatory Vintage,Glen Grant,13 Year Old,13,$184.50
+Glen Grant,Glen Grant,16 Year Old,16,$79.99
+Gordon and MacPhail,Glen Grant,16 Year Old Cask Strength,16,$120.00
+Duncan Taylor,Glen Grant,18 Year Old,18,$160.00
+Gordon and MacPhail,Glen Grant,1965,48,$1100
+AD Rattray,Glen Grant,20 Year Old Cask Collection,20,$125.00
+Chieftain's,Glen Grant,Aged 20 Years,20,$175.00
+Glen Grant,Glen Grant,Five Decades,,$150.00
 Chieftain's,GlenKeith,17 Year Old,17,$115.00
 Duncan Taylor,GlenKeith,Dimensions 19 Year Old,19,$165.00
 Classic Cask,GlenKeith,20 Years Old,20,$165.00
@@ -450,8 +450,8 @@ Oban,Oban,14 Year Old,14,$87.00
 Oban,Oban,18 Year Old,18,$145.00
 Oban,Oban,21 Year Old,21,$410.00
 Oban,Oban,Distillers Edition,,$115.00
-Octomore,Octomore,6.1 5 Year Old Scottish Barley,5,$160.00
-Octomore,Octomore,Batch 7.1,,$165.00
+Bruichladdich,Bruichladdich,Octomore 6.1,5,$160.00
+Bruichladdich,Bruichladdich,Octomore 7.1,,$165.00
 Old Pulteney,Old Pulteney,12 Year Old,12,$49.95
 Old Pulteney,Old Pulteney,21 Year Old,21,$165.00
 Gordon and MacPhail,Old Pulteney,21 Year Old,21,$185.00
