@@ -1,0 +1,107 @@
+PRODUCER,DISTILLER,NAME,AGE,PRICE
+Aberlour,Aberlour,12 Year Old Double Cask Matured,12,$43.99
+Aberlour,Aberlour,12 Year Old Non-Chill Filtered,12,$59.99
+Aberlour,Aberlour,16 Year Old Double Cask Matured,16,$76.99
+Aberlour,Aberlour,18 Year Old,18,$99.99
+Ardbeg,Ardbeg,10 Year Old ,10,$53.99
+Ardmore,Ardmore,Legacy,,$43.99
+Auchentoshan,Auchentoshan,21 Year Old,21,$179.99
+Auchentoshan,Auchentoshan,American Oak,,$39.99
+Auchentoshan,Auchentoshan,Three Wood,$69.99
+Balblair,Balblair,1991,,$129.98
+Balblair,Balblair,2002,$66.98
+Balvenie,Balvenie,12 Year Old Doublewood,12,$57.99
+Balvenie,Balvenie,14 Year Old Caribbean Rum Cask,14,$84.99
+Balvenie,Balvenie,17 Year Old Doublewood,17,$149.99
+Balvenie,Balvenie,21 Year Old Portwood,21,$239.99
+Balvenie,Balvenie,40 Year Old Batch #7,40,$4999.99
+Bowmore,Bowmore,12 Year Old,12,$54.99
+Bowmore,Bowmore,18 Year Old,18,$134.99
+Bunnahabhain,Bunnahabhain,12 Year Old,12,$54.99
+Bunnahabhain,Bunnahabhain,18 Year Old,18,$119.99
+Cardhu,Cardhu,12 Year Old,12,$48.99
+Clynelish,Clynelish,14 Year Old,14,$63.99
+Cragganmore,Cragganmore,12 Year Old Distiller's Edition,12,$79.99
+Cragganmore,Cragganmore,12 Year Old,12,$57.99
+Craigellachie,Craigellachie,13 Year Old,13,$63.99
+Dalmore,Dalmore,12 Year Old,12,$59.99
+Dalmore,Dalmore,15 Year Old,15,$99.99
+Dalmore,Dalmore,Cigar Malt Reserve,,$134.99
+Dalwhinnie,Dalwhinnie,15 Year Old,15,$64.99
+Dewar's,Aberfeldy,12 Year Old,12,$43.99
+Dewar's,Aberfeldy,21 Year Old,21,$179.99
+Edradour,Edradour,10 Year Old,10,$59.99
+Glen Grant,Glen Grant,10 Year Old,10,$54.99
+Glen Moray,Glen Moray,12 Year Old,12,$37.99
+Glendronach,Glendronach,12 Year Old,12,$69.99
+Glenfarclas,Glenfarclas,10 Year Old,10,$44.99
+Glenfarclas,Glenfarclas,12 Year Old,12,$54.99
+Glenfarclas,Glenfarclas,17 Year Old,17,$109.99
+Glenfiddich,Glenfiddich,12 Year Old,12,$29.99
+Glenfiddich,Glenfiddich,14 Year Old Bourbon Barrel Reserve,14,$49.99
+Glenfiddich,Glenfiddich,15 Year Old,15,$54.99
+Glenfiddich,Glenfiddich,21 Year Old,21,$189.99
+Glenfiddich,Glenfiddich,Small Batch Reserve 18 Year Old,18,$99.99
+Glengoyne,Glengoyne,18 Year Old,18,$89.99
+Glenkinchie,Glenkinchie,12 Year Old,12,$59.99
+Glenlivet,Glenlivet,XXV,,$399.99
+Glenmorangie,Glenmorangie,18 Year Old,18,$119.99
+Glenmorangie,Glenmorangie,Lasanta,12,$54.99
+Glenmorangie,Glenmorangie,Milsean,,$119.99
+Glenmorangie,Glenmorangie,The Nectar d'Or,12,$79.99
+Glenmorangie,Glenmorangie,The Original,10,$39.99
+Glenmorangie,Glenmorangie,The Quinta Ruban,12,$54.99
+Highland Park,Highland Park,Orkney Island,12,$51.99
+Highland Park,Highland Park,Orkney Island,15,$87.99
+Highland Park,Highland Park,Orkney Island,18,$139.99
+Isle of Jura,Isle of Jura,Diurachs' Own,16,$79.99
+Isle of Jura,Isle of Jura,Origin,10,$42.99
+Isle of Jura,Isle of Jura,Superstition,,$56.99
+Kavalan,Kavalan,Concertmaster Port Cask Finish,,$93.98
+Kavalan,Kavalan,King Car Conductor,,$104.98
+Lagavulin,Lagavulin,Distillers Edition 1998,,$124.99
+Laphroaig,Laphroaig,10 Year Old,10,$48.99
+Laphroaig,Laphroaig,Quarter Cask,,$59.99
+Ledaig,Ledaig,Isle of Mull,10,$56.99
+Lismore,Lismore,15 Year Old,15,$39.99
+Lismore,Lismore,18 Year Old,18,$49.99
+Longmorn,Longmorn,16 Year Old,16,$114.99
+Macallan,Macallan,10 Year Old Fine Oak,10,$49.99
+Macallan,Macallan,12 Year Old,12,$54.99
+Macallan,Macallan,15 Year Old Fine Oak,15,$114.99
+Macallan,Macallan,17 Year Old Fine Oak,17,$239.99
+Macallan,Macallan,18 Year Old 1970,18,$1799.99
+Macallan,Macallan,18 Year Old Sherry Cask,18,$259.99
+Macallan,Macallan,30 Year Old Fine Oak,30,$2999.99
+Macallan,Macallan,30 Year Old Sherry Oak,30,$3199.99
+Macallan,Macallan,M,,$4999.99 
+Macallan,Macallan,Rare Cask,,$299.99
+McClelland's,McClelland's,Islay,,$24.99
+McClelland's,McClelland's,Highland,,$24.99
+McClelland's,McClelland's,Lowland,,$24.99
+Mortlach,Mortlach,18 Year Old,18,$299.99
+Mortlach,Mortlach,25 Year Old,25,$599.99
+Mortlach,Mortlach,Rare Old,,$129.99
+Nikka,Nikka,Taketsuru Pure Malt,,$64.99
+Oban,Oban,14 Year Old,14,$79.99
+Oban,Oban,Little Bay,,$83.99
+Old Pulteney,Old Pulteney,12 Year Old,12,$39.99
+Speyburn,Speyburn,10 Year Old,10,$19.99
+Springbank,Springbank,10 Year Old,10,$62.99
+Springbank,Springbank,15 Year Old,$114.99
+Talisker,Talisker,10 Year Old,10,$59.99
+Talisker,Talisker,2003 Distiller's Edition Skye,,$99.99
+Glenlivet,Glenlivet,12 Year Old,12,$29.99
+Glenlivet,Glenlivet,15 Year Old French Oak,15,$49.99
+Glenlivet,Glenlivet,18 Year Old,18,$79.99
+Glenlivet,Glenlivet,21 Year Old Archive,21,$209.99
+Glenlivet,Glenlivet,Founders Reserve,,$41.99
+Glenrothes,Glenrothes,1995,,$99.99
+Glenrothes,Glenrothes,Bourbon Cask Reserve,,$48.99
+Glenrothes,Glenrothes,Sherry Cask Reserve,,$48.99
+Glenrothes,Glenrothes,Vintage Reserve,,$54.99
+Tomatin,Tomatin,12 Year Old,12,$29.99
+Tomatin,Tomatin,18 Year Old,18,$83.99
+Tomintoul,Tomintoul,16 Year Old,16,$59.99
+Tomintoul,Tomintoul,Oloroso Cask Finish,12,$69.99
+Tomintoul,Tomintoul,Peated,,$42.99
