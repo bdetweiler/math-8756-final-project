@@ -6,6 +6,12 @@
 #        and insert it into the SQLite database, being mindful of duplicates.
 #
 #        You must set environment variable MATH_8756_HOME to the project directory.
+#
+# DBI - Basic functions to connect to all types of external databases
+# RSQLite - Functions to embed SQLite into R
+# RSQLite.extfuns - Include some SQLite extensions
+# sqldf - Like using SQL queries? Use SQL syntax with R dataframes.
+# http://rstudio-pubs-static.s3.amazonaws.com/8753_a57d3950027541a590c9b40a045accbf.html#9
 ########################################################################################
 library('DBI') 
 library('RSQLite')
