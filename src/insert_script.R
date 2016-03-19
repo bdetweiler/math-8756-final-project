@@ -16,6 +16,7 @@
 library('DBI') 
 library('RSQLite')
 
+# Constants
 MATH_8756_HOME <- Sys.getenv('MATH_8756_HOME')
 SCOTCH_PRICES_DB <- 'scotch_prices.db'
 DB <- paste(MATH_8756_HOME, paste('db', SCOTCH_PRICES_DB, sep=dir_separator), sep=dir_separator)
@@ -27,31 +28,87 @@ if (system == 'Windows') {
   dir_separator <- '\\'
 }
 
-con <- dbConnect(RSQLite::SQLite(), DB)
+print('connecting...')
+con <- DBI::dbConnect(RSQLite::SQLite(), DB)
+DBI::dbBegin(con)
+print('connected!')
+print(con)
 
-bulk_insert <- function(sql, data_to_insert) {
-  dbBeginTransaction(con)
-  dbGetPreparedQuery(con, sql, bind.data=data_to_insert)
-  dbCommit(con)
-  dbGetQuery(con, "select count(*) from keys")[[1]]
+# XXX: I had trouble with this. It inserted 5 rows then just decided not to insert anymore.
+#      So I ended up copy/pasting the SQL queries and inserting them manually. Will have to 
+#      find a better way of going about this for the scotch and prices. Possibly Python...
+bulk_insert_retailers <- function(data_to_insert) {
+  print('inserting...')
+  
+  for (i in 1:dim(data_to_insert)[1]) {
+    # Get max RETAILER_ID
+    id <- dbGetQuery(con, 'select max(retailer_id) id from retailer')
+    print(paste('max id = ', id, sep=''))
+    id <- id + 1
+    print(paste('max value is now: ', id, sep=' '))
+    
+    name <- data_to_insert[i,'NAME']
+    
+    sql <- paste(paste("select * from retailer where name = '", name, sep=''), "'", sep='')
+    retailer_exists <- RSQLite::dbGetQuery(con, sql)
+    row_count <- dim(retailer_exists)[1]
+    if (row_count > 0) {
+      print('retailer exists. Continuing...')
+      print(retailer_exists)
+      next
+    }
+    
+    print(paste('inserting retailer ', name, sep=''))
+    
+    # Tried doing this with data binding but it doesn't seem to want to work
+    # So we're doing it the ugly way
+    
+    sql <- "insert into retailer (RETAILER_ID, NAME, URL, TYPE, CITY, STATE, COUNTRY, SHIPPING_COST, ADDITIONAL_COST)"
+    sql <- paste(paste(paste(sql, "values(", sep=' '), id, sep=''), ", ", sep='')
+    sql <- paste(paste(paste(sql, " '", sep=''), data_to_insert[i, 'NAME'], sep=''), "', ", sep='')
+    sql <- paste(paste(paste(sql, " '", sep=''), data_to_insert[i, 'URL'], sep=''), "', ", sep='')
+    sql <- paste(paste(paste(sql, " '", sep=''), data_to_insert[i, 'TYPE'], sep=''), "', ", sep='')
+    sql <- paste(paste(paste(sql, " '", sep=''), data_to_insert[i, 'CITY'], sep=''), "', ", sep='')
+    sql <- paste(paste(paste(sql, " '", sep=''), data_to_insert[i, 'STATE'], sep=''), "', ", sep='')
+    sql <- paste(paste(paste(sql, " '", sep=''), data_to_insert[i, 'COUNTRY'], sep=''), "', ", sep='')
+    if (!is.na(data_to_insert[i, 'SHIPPING_COST'])) {
+      sql <- paste(paste(sql, " ", sep=''), data_to_insert[i, 'SHIPPING_COST'], sep='')
+    } else {
+      sql <- paste(paste(sql, " ", sep=''), 'null', sep='')
+    }
+    sql <- paste(sql, ",", sep=' ')
+    
+    if (!is.na(data_to_insert[i, 'ADDITIONAL_COST'])) {
+      sql <- paste(paste(sql, " ", sep=''), data_to_insert[i, 'ADDITIONAL_COST'], sep='')
+    } else {
+      sql <- paste(paste(sql, " ", sep=''), 'null', sep='')
+    }
+    
+    
+    sql <- paste(sql, ')', sep='')
+    print(sql)
+    
+    RSQLite::dbSendQuery(con, sql)
+    #DBI::dbCommit(con)
+
+
+  }
+  #dbCommit(con)
+  #q <- dbGetQuery(con, "select count(*) from retailer")[[1]]
+  print('done!')
+  print(q)
 }
 
-csv <- read.csv(RETAILERS_CSV)
+#csv <- read.csv(RETAILERS_CSV)
 
-sql <- "insert into retailer(RETAILER_ID, NAME, TYPE, URL, CITY, STATE, COUNTRY, SHIPPING_COST, ADDITIONAL_COST)
-        values(:NAME, :TYPE, :URL, :CITY, :STATE, :COUNTRY, :SHIPPING_COST, :ADDITIONAL_COST)"
-bulk_insert(sql, csv)
+#sql <- "insert into retailer(NAME, TYPE, URL, CITY, STATE, COUNTRY, SHIPPING_COST, ADDITIONAL_COST)
+#        values($NAME, $TYPE, $URL, $CITY, $STATE, $COUNTRY, $SHIPPING_COST, $ADDITIONAL_COST)"
+#bulk_insert_retailers(sql, csv)
 
 
 
 #for (i in 1:length(csv)[1]) {
-#  name <- csv[i]$NAME
-#  url <- csv[i]$URL
-#  city <- csv[i]$CITY
-#  state <- csv[i]$STATE
-#  country <- csv[i]$COUNTRY
-#  shipping_cost <- csv[i]$SHIPPING_COST
-#  additional_cost <- csv[i]$ADDITIONAL_COST
+
   
 #  sql <- "select name from retailer where name = ':name'"
 #}
@@ -107,20 +164,20 @@ for (i in 1:length(csvs)) {
   # and price.retailer_id = retailer.retailer_id
   
   # sql <- "INSERT INTO School VALUES (1, 'urban', 'state', 'medium')"
-  sql <- "select * from scotch where name = 'Three Wood'"
+  #sql <- "select * from scotch where name = 'Three Wood'"
   
-  rs <- dbGetQuery(conn=con, sql)
+  #rs <- dbGetQuery(conn=con, sql)
   
     # Get all results
   
   # Loop over all rows
-  for (j in 1:dim(rs)[1]) {
-    print(j)
-  }
+  #for (j in 1:dim(rs)[1]) {
+  #  print(j)
+  #}
   
-  print(csvs[i])
+  #print(csvs[i])
   
-  csv <- read.csv(paste(clean_data_dir, csvs[i], sep=dir_separator))
+  #csv <- read.csv(paste(clean_data_dir, csvs[i], sep=dir_separator))
    
 }
  
