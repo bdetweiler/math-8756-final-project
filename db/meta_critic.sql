@@ -1,47 +1,33 @@
 select *
 from scotch
-where distillery = 34
+where distillery = 36
+--and name like '%Rare%'
 order by name
 
+
+
 update price
-set scotch = 494
-where scotch in (498, 500, 499)
+set scotch = 82
+where scotch in (1526, 1776)
 
 delete from scotch where
-scotch_id in (498, 500, 499)
+scotch_id in (1526, 1776)
 
-
+select *
+from price 
+where scotch = 1832
 
 select p.price, s.*
 from scotch s, price p
 where p.scotch = s.scotch_id
-and s.scotch_id in (498,
-500,
-499
+and s.scotch_id in (601,
+1021,
+1022
 )
 
 select distinct(retailer)
 from price
 
-update scotch set distillery=34,  meta_critic=8.23, stdev=0.33, super_cluster='EF',  cluster='E' where name='10 Year Old Fine Oak' and distillery=34;
-update scotch set distillery=34,  meta_critic=8.48, stdev=0.41, super_cluster='GH',  cluster='G' where name='12 Year Old Fine Oak' and distillery=34;
-update scotch set distillery=34,  meta_critic=8.35, stdev=0.39, super_cluster='EF',  cluster='E' where name='1824 Amber' and distillery=34;
-update scotch set distillery=34,  meta_critic=8.3,  stdev=0.3,  super_cluster='GH',  cluster='G' and distillery=34 and name='1824 Gold';
-update scotch set distillery=34,  meta_critic=8.76, stdev=0.46, super_cluster='ABC', cluster='A' where name='1824 Rare Cask' and distillery=34;
-update scotch set distillery=34,  meta_critic=8.82, stdev=0.2,  super_cluster='ABC', cluster='A' where name='1824 Ruby' and distillery=34;
-update scotch set distillery=34,  meta_critic=8.84, stdev=0.33, super_cluster='ABC', cluster='C' where name='1824 Sienna' and distillery=34;
-update scotch set distillery=34,  meta_critic=8.83, stdev=0.33, super_cluster='ABC', cluster='C' where name='18 Year Old Fine Oak' and distillery=34;
-update scotch set distillery=34,  meta_critic=8.59, stdev=0.37, super_cluster='ABC', cluster='C' where name='30 Year Old Fine Oak' and distillery=34;
-
-update scotch set distillery=146, meta_critic=8.26, stdev=0.13, super_cluster='GH',  cluster='G' where name='12 Year Old (F&F)' and distillery=146;
-
-update scotch set distillery=76,  meta_critic=8.07, stdev=0.48, super_cluster='EF',  cluster='E' where name='10 Year Old (F&F)' and distillery=76;
-
-update scotch set distillery=36,  meta_critic=8.72, stdev=0.4,  super_cluster='ABC', cluster='C' where name='15 Year Old (Gordon & MacPhail)' and distillery=36;
-update scotch set distillery=36,  meta_critic=8.69, stdev=0.32, super_cluster='ABC', cluster='C' where name='16 Year Old (F&F)' and distillery=36;
-update scotch set distillery=36,  meta_critic=8.71, stdev=0.73, super_cluster='EF',  cluster='E' where name='18 Year Old' and distillery=36;
-update scotch set distillery=36,  meta_critic=8.56, stdev=0.4,  super_cluster='EF',  cluster='E' where name='Rare Old' and distillery=36;
-update scotch set distillery=36,  meta_critic=8.74, stdev=0.64, super_cluster='EF',  cluster='E' where name='Special Strength' and distillery=36;
 
 update scotch set distillery=38,  meta_critic=8.43, stdev=0.44, super_cluster='I',   cluster='I' where name='14 Year Old' and distillery=38;
 update scotch set distillery=38,  meta_critic=8.51, stdev=0.33, super_cluster='I',   cluster='I' where name='Little Bay' and distillery=38;
@@ -130,4 +116,3 @@ where age = 75
 
 select *
 from producer where producer_id = 73
-
