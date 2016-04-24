@@ -27,14 +27,135 @@
 \documentclass[12pt,a4paper]{report}
 \usepackage[pdftex]{graphicx} %for embedding images
 \usepackage{url} %for proper url entries
-\usepackage[bookmarks, colorlinks=false, pdfborder={0 0 0}, pdftitle={<pdf title here>}, pdfauthor={<author's name here>}, pdfsubject={<subject here>}, pdfkeywords={<keywords here>}]{hyperref} %for creating links in the pdf version and other additional pdf attributes, no effect on the printed document
+\usepackage[bookmarks, colorlinks=false, pdfborder={0 0 0}, pdftitle={MATH 8756 Final Project}, pdfauthor={Brian Detweiler}, pdfsubject={Statistics and Scotch}, pdfkeywords={Statistics, Scotch}]{hyperref} 
+\usepackage[toc,page]{appendix}
+%for creating links in the pdf version and other additional pdf attributes, no effect on the printed document
+
 %\usepackage[final]{pdfpages} %for embedding another pdf, remove if not required
 
+%\usepackage[utf8]{inputenc}
+
+%\usepackage{epigraph}
+\usepackage{quotchap}
+\usepackage[utf8]{inputenc}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{color}
+\usepackage{progressbar}
+\usepackage{array}
+\usepackage{tikz}
+\usepackage{verbatim}
+\usepackage{color,soul}
+\usepackage{blkarray}
+\usepackage[utf8]{inputenc}
+\usepackage{amssymb}% http://ctan.org/pkg/amssymb
+\usepackage{pifont}% http://ctan.org/pkg/pifont
+\usepackage{listings}
+\usepackage{mathtools}
+\usepackage{csquotes}
+\usepackage{algpseudocode}
+\usepackage{wasysym}
+
+
+%New colors defined below
+\definecolor{codegreen}{rgb}{0,0.6,0}
+\definecolor{codegray}{rgb}{0.5,0.5,0.5}
+\definecolor{codepurple}{rgb}{0.58,0,0.82}
+\definecolor{backcolour}{rgb}{0.95,0.95,0.92}
+
+\DeclareMathOperator*{\as}{a.s.} 
+
+%Code listing style named "mystyle"
+\lstdefinestyle{mystyle}{
+  backgroundcolor=\color{backcolour},   commentstyle=\color{codegreen},
+  keywordstyle=\color{magenta},
+  numberstyle=\tiny\color{codegray},
+  stringstyle=\color{codepurple},
+  basicstyle=\footnotesize,
+  breakatwhitespace=false,         
+  breaklines=true,                 
+  captionpos=b,                    
+  keepspaces=true,                 
+  numbers=left,                    
+  numbersep=5pt,                  
+  showspaces=false,                
+  showstringspaces=false,
+  showtabs=false,                  
+  tabsize=2
+}
+
+%"mystyle" code listing set
+\lstset{style=mystyle}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%% EXAMPLE TABLE   %%%%%%%%%%%%%
+%\begin{center}
+%\begin{tabular}{ c c c }
+% cell1 & cell2 & cell3 \\ 
+% cell4 & cell5 & cell6 \\  
+% cell7 & cell8 & cell9    
+%\end{tabular}
+%\end{center}
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%% EXAMPLE PICTURE %%%%%%%%%%%%%
+%\begin{figure}[htp]
+%\centering
+%\includegraphics[width=13cm]{Homework5_2.png}
+%\caption{Bank Teller Queue}
+%\label{fig:Queue}
+%\end{figure}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%% EXAMPLE MATRIX %%%%%%%%%%%%%
+%\begin{equation*}
+%\begin{split}
+%\begin{bmatrix}
+%    x_{11}       & x_{12} & x_{13} & \dots & x_{1n} \\
+%    x_{21}       & x_{22} & x_{23} & \dots & x_{2n} \\
+%    \hdotsfor{5} \\
+%    x_{d1}       & x_{d2} & x_{d3} & \dots & x_{dn}
+%\end{bmatrix}
+%&=
+%\begin{bmatrix}
+%    x_{11} & x_{12} & x_{13} & \dots  & x_{1n} \\
+%    x_{21} & x_{22} & x_{23} & \dots  & x_{2n} \\
+%    \vdots & \vdots & \vdots & \ddots & \vdots \\
+%    x_{d1} & x_{d2} & x_{d3} & \dots  & x_{dn}
+%\end{bmatrix}
+%\end{split}
+%\end{equation*}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%% CODE EXAMPLE
+%\begin{lstlisting}[language=R, caption=Evaluating Matrix H]
+%\end{lstlisting}
+
 \begin{document}
+
+% Matrix variable boldface
+\newcommand{\matr}[1]{\mathbf{#1}}
+% I seem to typo this a lot, so we'll just alias it
+\newcommand{\fraC}[2]{\frac{#1}{#2}}
+% for repeating values
+\newcommand*\repeating[1]{\overline{#1}}
+\newcommand{\xmark}{\ding{55}}%
+
+\makeatletter
+\renewcommand*\env@matrix[1][*\c@MaxMatrixCols c]{%
+  \hskip -\arraycolsep
+  \let\@ifnextchar\new@ifnextchar
+  \array{#1}}
+\makeatother
+
+\DeclarePairedDelimiter{\ceil}{\lceil}{\rceil}
+\DeclarePairedDelimiter{\floor}{\lfloor}{\rfloor}
+
+
 \renewcommand\bibname{References} %Renames "Bibliography" to "References" on ref page
 
 %include other pages
-\input{0-title}
+\input{0-cover-page}
+\input{0a-title}
 \input{1-abstract}
 
 \pagenumbering{roman} %numbering before main content starts
@@ -49,6 +170,6 @@
 \input{4-future-work}
 \input{5-conclusion}
 \input{6-references}
+\input{7-appendix}
 
 \end{document}
-

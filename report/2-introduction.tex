@@ -6,23 +6,43 @@ I love scotch. Scotchy, scotch, scotch. Here it goes down, down into my belly...
 
 \chapter{Introduction}
 
-It's easy to break a budget on alcohol, as many college students know. But it becomes exponentially easier with scotch whisky\footnote{Scotch whisky is spelled without the "e"} with the rarest of breeds fetching upwards of \$460,000.\cite{Macallan64} But even middling bottles can easily run over \$100, leaving many to wonder why anyone would spend their hard earned money on something that is sure to have the same net result as a \$10 bottle of cheap swill that can be mixed with cola.
+It's easy to break a budget on alcohol, as many college students know. But it becomes exponentially easier with scotch whisky\footnote{Scotch whisky is spelled without the "e"} with the rarest of breeds fetching upwards of \$460,000.\cite{Macallan64} Even middling bottles can easily run over \$100, leaving many to wonder why anyone would spend their hard earned money on something that is sure to have the same net result as a \$10 bottle of cheap swill that can be mixed with cola.
 
-Scotch drinkers tend to think about this differently. For many, scotch is a hobby, and collecting and sampling new whiskies is the goal, as opposed to just drinking. Many people appreciate the arduous time spent producing the whisky, from the distillation to the aging. Scotch takes much longer to age than bourbon, due to the climate in Scotland, and produces a vastly different flavor profile. The standard minimum age for scotch is typically twelve years, though due to rising demands, many distilleries have been experimenting with younger batches, letting some rest as little as five years. Scotch must be aged for three years by law, but for most scotches, desirability increases with the age.
+Scotch drinkers tend to see this from a different angle. Scotch collecting and tasting can be a hobby (albeit a high-end one), and should not be equated with just drinking. Connoisseurs appreciate the arduous time spent producing the whisky, from the distillation to the aging and even the bottling and packaging. Scotch takes much longer to age than bourbon, due to the climate in Scotland, and produces a vastly different flavor profile. In the past, the typical age for scotch has been twelve years of rest in a barrel, but due to rising demands, many distilleries have been experimenting with younger batches. 
 
-In this paper, we examine the prices of scotch and how it correlates to age. We will also look at various online retailers and compare them with each other as well as local retailers in the Omaha, Nebraska area and examine the variance of whisky prices.
+So called "no age statement" varieties have been rising in popularity, in part to meet market demand amid surging popularity and dwindling stock of longer aged whiskies. Scotch must be aged for three years by law, but for most scotches, desirability increases with the age. Is scotch \textit{better} with age? It's a subjective question, and it depends on the scotch, but suffice it to say, it is definitely \textit{different}. That topic is not discussed here. \textit{WhiskyAnalysis.com} does a detailed meta-critic analysis if you are interested in a statistical analysis of tasting notes. \cite{WhiskyAnalysis}
+
+When it comes to the question of age and quality, perception may not match reality. Chivas Brothers (makers of \textit{The Glenlivet} and other whiskies) ran a survey in 2010 examining consumer perception of age pertaining to scotch. They found that the vast majority of consumers actively look for an age statement and see it as an indicator of quality. In fact, 94\% believe that the older a whisky is, the better it must be. \cite{Chivas} Of course, this is not necessarily true, but could this perception have an affect on price?
+
+In this paper, we examine the prices of scotch and how it correlates to age. We will also look at various online retailers and compare them with each other. We also present an open source database of prices for over two thousand whiskies, which may serve as guide for making informed consumer decisions.
+
+In an effort to keep this project manageable, several restrictions must be put in place to avoid scope creep. These restrictions include the following:
+
+\begin{enumerate}
+  \item Must be single malt scotch whisky
+    \subitem Blends will not be considered
+    \subitem Grain whiskies will not be considered
+    \subitem Only whiskies from Scotland will be considered
+  \item Only 750ml bottles available for retail purchase will be considered
+    \subitem Gift sets will not be considered
+    \subitem Bottles of smaller or larger sizes will not be considered
+    \subitem UK standard sizes of 700ml were not considered
+    \subitem Inventory is not considered (the bottle may be out of stock, so long as the price is available)
+  \item Purchase minimums or maximums are not considered
+  \item Shipping, handling, customs, or other fees are not considered \footnote{These would obviously play a big role in a purchase decision, but building a robust pricing schema is beyond the scope of this project}
+\end{enumerate}
 
 
-\section{Background and Recent Research}
-\subsection{<any sub section here>}
 
-\subsection{Literature Survey}
+%\section{Background and Recent Research}
+%\subsection{<any sub section here>}
 
-\subsubsection{<Sub-subsection title>}
-some text\cite{citation-1-name-here}, some more text
+%\subsection{Literature Survey}
 
-\subsubsection{<Sub-subsection title>}
-even more text\footnote{<footnote here>}, and even more.
+%\subsubsection{<Sub-subsection title>}
+%some text\cite{citation-1-name-here}, some more text
 
-\section{Motivation}
+%\subsubsection{<Sub-subsection title>}
+%even more text\footnote{<footnote here>}, and even more.
 
+%\section{Motivation}

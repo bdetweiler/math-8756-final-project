@@ -1,4 +1,11 @@
 \chapter{Future Work}
 
-<Future work here>
+It should be clear by this point, that while age does not imply price, prices can vary wildly among retailers. This kind of information would be incredibly valuable to consumers in the form of either a web app or mobile app. The ability to scan a barcode in-store and get an instant price comparison or to type in a whisky and get a list of prices in ascending order would be very useful for consumers.
 
+In order for this to happen, the infrastructure would need to be more sophisticated than what I did here. The data capture and cleaning methods were intended for one-time use, but for an app like this, prices would need to be updated much more frequently and in an automated fashion. 
+
+I suggested Natural Language Processing earlier. This is because scotches don't have easy to categorize names like beer or wine. There are complications like independent bottlers, vintages, and collectible one-offs. There are cask strength versions and different cask type variations. Narrowing this down to a single SKU for each bottle becomes even more difficult when online retailers don't use a unified naming convention. 
+
+I was unable to successfully match many bottle listings by hand, so it would be interesting to see how something like a Bayesian text classifier could do.
+
+The findings here open the door to more research, and since this project is open source, it is free to grow.
